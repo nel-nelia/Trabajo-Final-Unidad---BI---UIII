@@ -163,13 +163,14 @@
 		 \\
 		 
 		 Existen trabajos relacionados en ambas metodologías. Algunos, como Balavanovic y Shoham [1997], Lieberman et al. [1997] y Wexelblat [1998], utilizan agentes para implementación de sus sistemas de recomendación.\\
-		\\
+		 \\
 		 Los sistemas de recomendación han cobrado gran importancia debido a su aceptación por la gente y la ayuda que brindan en el filtrado de información. A continuación, se mencionan algunos sistemas de recomendación que son relevantes para este trabajo:
 		 
 		 	\begin{enumerate}[A.]
 		 		\item ESTRATEGIAS
-		 		Para implementar este tipo de recomendadores se pueden usar varias técnicas: las estrategias basadas en memoria y las estrategias basadas en modelos.  	
-	 	\begin{figure}[H]
+		 		Para implementar este tipo de recomendadores se pueden usar varias técnicas: las estrategias basadas en memoria y las estrategias basadas en modelos. 
+		 		
+		 		\begin{figure}[H]
 		 			\begin{center}
 		 				\includegraphics[scale=0.9]{./Imagenes/img02}		
 		 			\end{center}
@@ -179,7 +180,8 @@
 	 				\item Estrategias basadas en memoria.\\
 	 				\\
 	 				A las que también se las llama estrategias basadas en vecinos. Son las que hacen recomendaciones basándose en las valoraciones realizadas por los usuarios del sistema. Han sido las estrategias más ampliamente usadas en la implementación de sistemas recomendadores de filtrado colaborativo. Dentro de estas técnicas, existen dos subconjuntos: 
-\begin{itemize}
+	 				
+	 				\begin{itemize}
 	 					\item Basado en usuario: se predice la valoración de un usuario para un producto, teniendo en cuenta las valoraciones que han hecho los vecinos del usuario (aquellos usuarios que han valorado de forma parecida los mismos productos que él) para ese mismo producto. \\
 
 	 					\item Basado en producto: se predice la valoración de un usuario para un producto, teniendo en cuenta las valoraciones que ha hecho ese usuario para vecinos del producto (aquellos productos que han sido valorados de forma parecida por los usuarios). 
@@ -190,8 +192,9 @@
 	 				El problema de las estrategias basadas en vecinos es que la complejidad de cálculo es enorme. Es por esto por lo que surgieron las estrategias basadas en modelos, con las que se construyen modelos estadísticos de patrones de valoración de usuarios y productos para hacer predicciones automáticas de valoraciones. Con ellas se realiza un preprocesamiento offine de los datos de la 15 plataforma para hacer las recomendaciones y predicciones con esos datos. Entre ellos se encuentran los modelos de semántica latente, redes neuronales o probabilísticos, pero el que más destaca es el modelo de los factores latentes. Es el método más utilizado por la mejora de precisión que ha proporcionado gracias a la utilización de la técnica de factorización de matrices. Lo que hace esta técnica es categorizar usuarios o productos en unas determinadas clases deducidas de las valoraciones aportadas por los usuarios.
 	 				
 	 			\end{enumerate}
-
-\end{enumerate}
+ 						
+		 		
+		 	\end{enumerate}
 	 		Aunque los algoritmos de filtrado colaborativo sean el tipo de sistema recomendador más utilizado y popular por la eficacia de sus recomendaciones aún tienen debilidades que provocan que las recomendaciones no sean totalmente efectivas y que, por lo tanto, es necesario que se solventen. Por un lado, tenemos dispersión: el conjunto de valoraciones usuario/producto normalmente es menor que el total de valoraciones posibles. Esto diculta encontrar valoraciones realizadas por el vecino del usuario y sobre el vecino del producto.\cite{nro1:Online}
 		 
 		 \subsubsection{SISTEMA DE RECOMENDACIÓN BASADO EN CONOCIMIENTO }
@@ -205,7 +208,41 @@
 		 	\item Cuando es difícil obtener las valoraciones o información de interacciones de un determinado tipo de producto debido a la amplia complejidad de dominio del sistema con respecto a la variedad de tipos y opciones de productos. 
 		 	\item Cuando se hacen recomendaciones sobre productos que evolucionan muy rápidamente.
 		 \end{itemize}
-
+	
+		 Por ejemplo, en productos como ordenadores o coches, es difícil que las valoraciones que han sido realizadas por un usuario en un determinado momento tengan validez pasado un cierto tiempo. Los productos evolucionan tan rápidamente que los usuarios no quieren adquirir productos con características anticuadas, aunque en el pasado les hayan gustado.
+		 
+		 
+		 
+		\section{ANALISIS: DIFERENCIAS ENTRE LOS PRINCIPALES TIPOS DE SISTEMA DE RECOMENDACIÓN}
+		
+			\begin{figure}[H]
+				\begin{center}
+					\includegraphics[scale=0.80]{./Imagenes/img03}		
+				\end{center}
+			\end{figure}
+		
+		\subsection{PRINCIPALES TAREAS QUE LOS SISTEMAS DE RECOMENDACIÓN}
+		
+		Las principales tareas que los sistemas de recomendación pueden realizar y por las que los usuarios los utilizan son: 
+		
+		\begin{itemize}
+			\item Ayudar a los usuarios a encontrar productos o usuarios que puedan interesarles. Como se ha comentado al inicio del capítulo, los sistemas de recomendación nos hacen la vida más fácil ayudándonos a elegir entre la amplia oferta que nos proporciona la Web. Es importante mencionar que este tipo de ayuda también se puede aplicar a grupos de personas, cuando es necesario cubrir todas las necesidades de un grupo de personas que buscan un producto. Por ejemplo, cuando un grupo de amigos quiere ir al cine a ver una película, el sistema tiene que cumplir los requisitos y restricciones de los usuarios adaptándolos de la mejor manera posible.
+			
+			\item Aconsejar al usuario sobre un determinado producto. Si un usuario está interesado en un producto concreto, a través de los sistemas recomendadores, se puede conocer la opinión de la comunidad con respecto a ese producto. Ayudar a encontrar una mezcla de productos nuevos y viejos.
+			
+			\item Ayudar a encontrar productos nuevos que nos puedan interesar, pero también productos con los que ya hayamos interactuado porque podemos volver a necesitarlo. Por ejemplo, al hacer la lista de la compra podemos volver a comprar alimentos que ya hayamos comprado anteriormente o podemos necesitar comprar productos nuevos para llegar a tener una dieta equilibrada.   
+			
+			\item Ayudar a encontrar productos según nuestra situación o nuestras necesidades. Es importante que el sistema recomendador nos ofrezca unos productos 11 determinados en la situación en la que lo necesitemos. No es lo mismo necesitar la recomendación de una película para ir a verla con amigos, que para ir a verla con familia. Tampoco es lo mismo necesitar la recomendación de un restaurante para una primera cita que para ir con amigos. De ahí la necesidad de adaptar los sistemas recomendadores para obtener los mejores resultados posibles.
+		\end{itemize}
+		
+	 	
+	 	\section{CONCLUSIONES}
+	 	
+	 	En este trabajo hemos realizado un sistema de recomendaciones utilizando de base la empresa de Airbnb esta empresa ofrece alojamientos a particulares y turísticos mediante la cual los anfitriones pueden publicitar y contratar el arriendo de sus propiedades con sus huéspedes; anfitriones y huéspedes pueden valorarse mutuamente, como referencia para futuros usuarios. \\
+	 	\\
+	 	Esto se pudo realizar gracias a la herramienta de Colab y archivos csv, que nos permitieron como base de datos para poder generar gráficos de tablas específicas, o información que deseemos poder visualizar.
+	 	
+	 	
 	 	\bibliographystyle{plain}
 	 	\bibliography{BIBLIO}
 	 		
