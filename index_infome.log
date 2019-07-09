@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.7.8)  8 JUL 2019 20:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.4.18)  9 JUL 2019 08:19
 entering extended mode
 **./index_infome.tex
 (index_infome.tex
 LaTeX2e <2018-12-01>
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cls"
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size11.clo"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size11.clo"
 File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -19,41 +19,36 @@ File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.sty
-"
+) ("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.st
+y"
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 )
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty
-"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty"
 Package: babel 2019/04/01 3.28 The Babel package
-
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.de
-f"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.def
+"
 File: switch.def 2019/04/01 3.28 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg
-"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-spanish\spa
-nish.ldf"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-spanish\span
+ish.ldf"
 Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
 
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def
-"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
 File: babel.def 2019/04/01 3.28 Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
 
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.
-def")
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.d
+ef")
 \bbl@dirlevel=\count89
 )
 \es@quottoks=\toks16
@@ -63,30 +58,30 @@ Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
 Package babel Info: Making > an active character on input line 707.
 ))
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.s
-ty"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.st
+y"
 Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
 
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.s
-ty"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.st
+y"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.st
-y"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
+"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
 \ex@=\dimen104
 ))
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.st
-y"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
+"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen105
 )
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.st
-y"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty
+"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count91
@@ -127,58 +122,55 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
 )
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfonts
-.sty"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.
+sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.
-sty"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.s
+ty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx
-.sty"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
+sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.s
-ty"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
+y"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
 )
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics
-.sty"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
+sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty
-"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\grap
-hics.cfg"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graph
+ics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdft
-ex.def"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
+x.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/natbib\natbib.sty
-"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip46
 \bibsep=\skip47
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count103
-)
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lineno\lineno.sty
-"
+) ("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lineno\lineno.st
+y"
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \linenopenalty=\count104
 \output=\toks23
@@ -195,10 +187,9 @@ Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \bframesep=\dimen119
 \bframebox=\box29
 LaTeX Info: Redefining \\ on input line 3056.
-) ("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ms\ragged2e.sty
-"
+) ("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ms\ragged2e.sty"
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
- ("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ms\everysel.sty"
+ ("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ms\everysel.sty"
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
 \CenteringLeftskip=\skip48
@@ -216,8 +207,8 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \RaggedRightParindent=\skip60
 \JustifyingParindent=\skip61
 )
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\multicol.st
-y"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\multicol.sty
+"
 Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
 \c@tracingmulticols=\count111
 \mult@box=\box30
@@ -266,26 +257,26 @@ Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
 \colbreak@box=\box55
 \mc@col@check@num=\count119
 )
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\enumerate.s
-ty"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\enumerate.st
+y"
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks24
 )
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry
-.sty"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
+sty"
 Package: geometry 2018/04/16 v5.8 Page Geometry
 
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.
-sty"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.s
+ty"
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifvtex
-.sty"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifvtex.
+sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\ifxetex
-.sty"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.
+sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count120
@@ -301,10 +292,10 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen136
 \Gm@dimlist=\toks25
 
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry
-.cfg"))
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr
-.sty"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
+cfg"))
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.
+sty"
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
 \f@nch@headwidth=\skip64
@@ -316,11 +307,10 @@ s
 \f@nch@O@erf=\skip70
 \f@nch@O@olf=\skip71
 \f@nch@O@orf=\skip72
-) ("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
+) ("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
+) ("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count123
 \float@exts=\toks26
@@ -348,8 +338,8 @@ LaTeX Font Info:    ... okay on input line 20.
 LaTeX Info: Redefining \. on input line 20.
 LaTeX Info: Redefining \% on input line 20.
 
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-
-pdf.mkii"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
+df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count124
 \scratchdimen=\dimen137
@@ -363,45 +353,45 @@ pdf.mkii"
 \makeMPintoPDFobject=\count129
 \everyMPtoPDFconversion=\toks29
 )
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf
--base.sty"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-
+base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infwar
-err.sty"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infware
+rr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.s
-ty"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.st
+y"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvdefi
-nekeys.sty"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvdefin
+ekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmd
-s.sty"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds
+.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoption
-s.sty"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions
+.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvsetk
-eys.sty"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvsetke
+ys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\etexcm
-ds.sty"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\etexcmd
+s.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifluat
-ex.sty"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifluate
+x.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 ))))
-("C:\Users\ALUMNO\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdftex
-cmds.sty"
+("C:\Users\luis_\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdftexc
+mds.sty"
 Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -463,130 +453,130 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--63
  []
 
 
-Overfull \hbox (53.98874pt too wide) in paragraph at lines 72--73
+Overfull \hbox (5.61906pt too wide) in paragraph at lines 73--74
 [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--80
-
  []
 
 [1
 
-{C:/Users/ALUMNO/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Imagenes
-/logo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 84--89
+{C:/Users/luis_/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Imagenes/
+logo.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 78--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--89
+Underfull \hbox (badness 10000) in paragraph at lines 85--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--90
 
  []
 
 <./Imagenes/img01.png, id=14, 189.70876pt x 150.5625pt>
 File: ./Imagenes/img01.png Graphic file (type png)
 <use ./Imagenes/img01.png>
-Package pdftex.def Info: ./Imagenes/img01.png  used on input line 97.
+Package pdftex.def Info: ./Imagenes/img01.png  used on input line 98.
 (pdftex.def)             Requested size: 170.73628pt x 135.50497pt.
 [2 <./Imagenes/img01.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 104--107
+Underfull \hbox (badness 10000) in paragraph at lines 105--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--114
+Underfull \hbox (badness 10000) in paragraph at lines 109--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--114
+Underfull \hbox (badness 10000) in paragraph at lines 109--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--143
+Underfull \hbox (badness 10000) in paragraph at lines 133--144
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--143
+Underfull \hbox (badness 10000) in paragraph at lines 133--144
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--143
+Underfull \hbox (badness 10000) in paragraph at lines 133--144
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--143
+Underfull \hbox (badness 10000) in paragraph at lines 133--144
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 154--164
+Underfull \hbox (badness 10000) in paragraph at lines 155--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--164
+Underfull \hbox (badness 10000) in paragraph at lines 155--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--164
+Underfull \hbox (badness 10000) in paragraph at lines 155--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--164
+Underfull \hbox (badness 10000) in paragraph at lines 155--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--164
+Underfull \hbox (badness 10000) in paragraph at lines 155--165
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 165--168
+Underfull \hbox (badness 10000) in paragraph at lines 166--169
 
  []
 
 <./Imagenes/img02.png, id=27, 250.9375pt x 175.15437pt>
 File: ./Imagenes/img02.png Graphic file (type png)
 <use ./Imagenes/img02.png>
-Package pdftex.def Info: ./Imagenes/img02.png  used on input line 175.
+Package pdftex.def Info: ./Imagenes/img02.png  used on input line 176.
 (pdftex.def)             Requested size: 225.84164pt x 157.63748pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--183
+Underfull \hbox (badness 10000) in paragraph at lines 181--184
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
 
  []
 
 [5 <./Imagenes/img02.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 190--193
+Underfull \hbox (badness 10000) in paragraph at lines 191--194
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--205
+Underfull \hbox (badness 10000) in paragraph at lines 203--206
 
  []
 
 <./Imagenes/img03.png, id=31, 473.51906pt x 229.60782pt>
 File: ./Imagenes/img03.png Graphic file (type png)
 <use ./Imagenes/img03.png>
-Package pdftex.def Info: ./Imagenes/img03.png  used on input line 220.
+Package pdftex.def Info: ./Imagenes/img03.png  used on input line 221.
 (pdftex.def)             Requested size: 378.81575pt x 183.6865pt.
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 241--244
+Underfull \hbox (badness 10000) in paragraph at lines 242--245
 
  []
 
@@ -602,23 +592,23 @@ LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
  4785 strings out of 492945
- 66908 string characters out of 3125809
+ 66953 string characters out of 3126252
  155651 words of memory out of 3000000
  8595 multiletter control sequences out of 15000+200000
  8080 words of font info for 28 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,43p,1034b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/ALUMNO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb><C:/Users/ALUMNO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmbx12.pfb><C:/Users/ALUMNO/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/ALUMNO/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/ALUMNO/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
-Users/ALUMNO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mr8.pfb><C:/Users/ALUMNO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmti10.pfb><C:/Users/ALUMNO/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmti8.pfb>
-Output written on index_infome.pdf (8 pages, 344365 bytes).
+<C:/Users/luis_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmbx10.pfb><C:/Users/luis_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmbx12.pfb><C:/Users/luis_/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/luis_/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/luis_/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users
+/luis_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pf
+b><C:/Users/luis_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmti10.pfb><C:/Users/luis_/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmti8.pfb>
+Output written on index_infome.pdf (8 pages, 343135 bytes).
 PDF statistics:
  69 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
