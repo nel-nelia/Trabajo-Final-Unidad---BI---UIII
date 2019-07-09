@@ -1,0 +1,140 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage{lineno}
+\usepackage{ragged2e}
+\usepackage{multicol}
+\setlength\columnsep{38pt}
+\usepackage{enumerate} 
+\usepackage[left=2.8cm,top=2.3cm,right=2.8cm,bottom=2.3cm]{geometry} 
+\usepackage{fancyhdr}
+\usepackage{url}
+\usepackage{float}
+
+
+\begin{document}
+		
+		\begin{center}
+			\huge \textbf{Metodología Bill Inmon vs Metodología de Kimball} 
+		\end{center}
+		\vspace{\baselineskip}
+		\begin{center}
+			\includegraphics[scale=0.37]{./Imagenes/logo}
+		\end{center}
+		\vspace{\baselineskip}
+		\begin{multicols}{2}
+			\small
+			\begin{center}
+				Nelia Escalante Marón\\
+				2014049551\\
+				UPT Ingeniería de Sistemas\\
+				Tacna, Perú\\
+				
+				\vspace{\baselineskip}
+				
+				Yerson Coaquira Calizaya\\
+				2015053225\\
+				UPT Ingeniería de Sistemas\\  
+				Tacna, Perú\\   
+				\columnbreak              
+				
+				Flor Condori Gutierrez\\
+				2015053227\\
+				UPT Ingeniería de Sistemas\\  
+				Tacna, Perú\\                 
+				
+				           
+			\end{center}
+			\normalsize			
+		\end{multicols}
+		\vspace{\baselineskip}
+		\vspace{\baselineskip}
+		\vspace{\baselineskip}
+
+		\textbf{\textit{\large Resumen}}\rule[1.5mm]{5mm}{0.1mm}		
+		Un sistema de recomendación es un sistema inteligente que proporciona a los usuarios una serie de sugerencias personalizadas (recomendaciones) sobre un determinado tipo de elementos (ítems). Los sistemas de recomendación estudian las características de cada usuario y mediante un procesamiento de los datos, encuentra un subconjunto de ítems que pueden resultar de interés para el usuario.\\
+		\\
+		En los últimos años y debido principalmente a la sobre carga de información que tenemos en internet, han proliferado los sistemas de recomendación, los cuales proporcionan a los usuarios, información, productos, etc. que puedan ser del interés del usuario, tras realizar un "estudio" de su perfil, su gusto e incluso de la forma en la que el usuario navega por internet.
+				
+		\vspace{\baselineskip}
+		
+		\textbf{\textit{\large Abstract}}\rule[1.5mm]{5mm}{0.1mm} 		
+		\textit{
+			A recommendation system is an intelligent system that provides users with a series of personalized suggestions (recommendations) about a certain type of elements (items). The recommendation systems study the characteristics of each user and through a processing of the data, find a subset of items that may be of interest to the user.
+			In recent years and mainly due to the overload of information that we have on the Internet, recommendation systems have proliferated, which provide users, information, products, etc. that may be of interest to the user, after conducting a "study "of your profile, your taste and even the way in which the user browses the internet.			
+		 }				
+						
+		\rule{167mm}{0.1mm}
+		
+		\vspace{\baselineskip}
+		
+		\section{INTRODUCCION}
+		Los sistemas de recomendación pueden definirse como herramientas diseñadas para interactuar con conjuntos de información grandes y complejos con la finalidad de proporcionar al usuario información o ítems que sean de su interés, todo ello de forma automatizada. Su funcionamiento se basa en el empleo de métodos matemáticos y estadísticos capaces de explotar la información previamente almacenada y crear recomendaciones adaptadas a cada usuario. En la actualidad, los sistemas de recomendación son una tecnología implementada en la mayoría de plataformas online como Amazon, Neflix, eBay… ya que han dado muy buenos resultados incrementando las ventas. También están presentes en muchos otros ámbitos, por ejemplo, el de las noticias, mostrando al usuario información que le interesa de forma rápida. La mayoría de sistemas de recomendación se pueden clasificar en tres grupos: basados en contenido, filtrado colaborativos y mixtos (combinación de los dos anteriores).\\
+		\\
+		El objetivo de los ejemplos mostrados en este documento es facilitar la comprensión de las ideas que hay detrás de algunos de estos sistemas, no persiguen ser una implementación óptima y sofisticada, sino intuitiva. Para sistemas más optimizados pueden emplearse librerías como \textit{recommenderlab}.
+		
+		\section{MARCO TEORICO}
+		
+			 \subsection{SISTEMA DE RECOMENDACIÓN}
+			 Un sistema de recomendación (SR) muestra resultados de una búsqueda efectiva de información. Encuentra datos precisos que el usuario desea conseguir. Para esto considera datos introducidos o generados a partir del funcionamiento del propio sistema. Un SR sugiere temas o productos fundamentándose en preferencias.\\
+			 \\
+			 Una de las variables importantes es el volumen de la información, ya que de éste depende el detalle de las recomendaciones. Factores como el tiempo de vida (del elemento a evaluar), el tipo de elemento (películas, gente, artículos, etcétera) y la cantidad generada influyen de manera directa en el momento de la recomendación.\\
+			 \\
+			 Debido a que mantener un sistema de recomendación es caro, se han considerado diferentes modelos para costear dichos sistemas:
+			 	\begin{itemize}
+			 		\item El consumidor paga por el servicio.
+			 		\item Los anuncios de publicidad mantienen el sistema.
+			 		\item El dueño del elemento a evaluar paga por la evaluación de su elemento.
+			 	\end{itemize}
+		 	
+		 		\begin{figure}[H]
+		 			\begin{center}
+		 				\includegraphics[scale=0.9]{./Imagenes/img01}		
+		 			\end{center}
+		 		\end{figure}
+	 		
+	 		Funciona en dos etapas: La primera es el aprendizaje de lo que me gusta, a través de páginas web, bibliotecas digitales, aplicaciones, o por sistemas de puntuación. Aquí es fundamental la recopilación de información del usuario, para crear un perfil personalizado, pues esto define la calidad de recomendación. La segunda etapa es la recomendación en sí. Envía sugerencias de lo que me puede gustar.
+	 		En el aprendizaje la información se obtiene de dos formas:
+	 		\begin{enumerate}[i.]
+	 			\item Explícita\\
+	 			\\
+	 			El usuario ingresa sus preferencias directamente. Por ejemplo, al seleccionar un producto de una lista, o llenar un formulario de registro. Si se requiere ser preciso, se presenta la desventaja de realizar demasiadas preguntas. Por lo que surge el riesgo de desinterés o no respuesta
+	 			
+	 			\item Implícita\\
+	 			\\
+	 			Se obtiene la información de páginas visitadas, como las redes sociales o tiendas online. Aquí, se registran indirectamente las preferencias. Una forma de hacerlo es analizar la nómina de productos de la tienda, revisar el número de visitas que registra, o mediante el historial de compras. \\
+	 			Este método presenta el riesgo de obtener datos erróneos. Por ejemplo, si en una página de comercio electrónico el usuario busca un producto para un tercero, que nada tiene que ver con sus gustos. Se considera que la mejor manera de recopilar información, es de forma combinada, debido a que se reducen los riesgos producidos.\\
+	 			\\
+	 			Algunos ejemplos de recolección de datos de forma implícitas son:
+	 			
+	 				\begin{itemize}
+	 					\item Guardar un registro de los temas que el usuario ha visto en una tienda en línea.
+	 					\item Analizar el número de visitas que recibe un artículo
+	 					\item Guardar un registro de los artículos que el usuario ha seleccionado.
+	 					\item Obtener un listado de los artículos que el usuario ha seleccionado o visto en su computadora.
+	 					\item Analizar las redes sociales de las que el usuario forma parte y de esta manera conocer sus gustos y preferencias.
+	 				\end{itemize}
+	 		\end{enumerate}
+	 		
+		 \subsection{TIPOS DE RECOMENDACIONES}	
+		 
+		 En los sistemas de recomendación existen dos paradigmas para la selección de elementos, basados en contenido y filtrado colaborativo. %[Balavanovic y Shoham 1997]. %
+		 \\
+		 En los sistemas basados en contenido el usuario recibirá información similar a la que ha mostrado interés en el pasado, mientras en el filtrado colaborativo las sugerencias serán de elementos que han gustado a gente con intereses similares a los suyos.
+		 
+		 \subsubsection{SISTEMA DE RECOMENDACIONES BASADAS EN CONTENIDO}
+		 
+		 Los sistemas de recomendación basados en contenido, emplean técnicas de recuperación de información. Por ejemplo, un documento de texto es recomendado basado en una comparación ente su contenido y el del perfil del usuario.\\
+		 \\
+		 Típicamente, el perfil muestra una lista de palabras clave y sus pesos correspondientes. Dicho perfil puede ser definido explícitamente, el usuario contesta cuestionarios, o de forma semiautomática en base a diversas heurísticas.
+	 	
+	 	
+	 	\bibliographystyle{plain}
+	 	\bibliography{BIBLIO}
+	 		
+\end{document}
