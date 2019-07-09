@@ -131,9 +131,81 @@
 		 
 		 Los sistemas de recomendación basados en contenido, emplean técnicas de recuperación de información. Por ejemplo, un documento de texto es recomendado basado en una comparación ente su contenido y el del perfil del usuario.\\
 		 \\
-		 Típicamente, el perfil muestra una lista de palabras clave y sus pesos correspondientes. Dicho perfil puede ser definido explícitamente, el usuario contesta cuestionarios, o de forma semiautomática en base a diversas heurísticas.
-	 	
-	 	
+		 Típicamente, el perfil muestra una lista de palabras clave y sus pesos correspondientes. Dicho perfil puede ser definido explícitamente, el usuario contesta cuestionarios, o de forma semiautomática en base a diversas heurísticas.% [Lieberman et al. 1997].%
+		 \\
+		 \\
+		 Para identificar el tema del documento se hace un análisis de frecuencia para extraer las palabras clave. Si a un usuario le gusta un documento, los pesos de las palabras extraídas se añaden a los pesos de las palabras correspondientes en el perfil del usuario. Este proceso es conocido como retroalimentación de relevancia. %[Balavanovic y Shoham 1997].%
+		 \\
+		 \\
+		 Este método de recomendación presenta algunos problemas como la sobre especialización; el sistema sólo muestra al usuario elementos similares a los que ya ha visto anteriormente. Algunas veces este problema es resuelto agregando a la búsqueda aleatoriedad (por ejemplo, mediante algoritmos genéticos). Otro problema se presenta al encontrar información multimedios, (con frecuencia presente en páginas de Web) puesto que cuando las recomendaciones son hechas sobre documentos de texto, está información es ignorada.\\
+		 \\
+		 El origen de los datos que utilizan los sistemas de recomendación de contenidos proviene de dos fuentes distintas: 
+		 
+		 \begin{itemize}
+		 	\item La primera fuente de datos son los atributos de los productos de la plataforma, obtenidos de sus propias descripciones. Por ejemplo, se pueden obtener estos atributos a partir de las etiquetas del propio producto o de la descripción que incluya el administrador al introducir el producto en la base de datos del sistema. 
+		 	
+		 	\item La segunda fuente de datos sería el perfil del usuario. La información del perfil de usuario se genera a partir de las interacciones que el usuario realiza con los productos de la plataforma. Se utiliza esta información como forma de relacionar al usuario con productos con los que haya interactuado y que tengan características que le interesen. No se relaciona al usuario con productos con los que ya ha interactuado. El feedback que proporciona el usuario puede ser explícito, cuando sea información obtenida de las valoraciones que ha realizado, o implícito, si la información se extrae de las acciones que ha realizado el usuario. 
+		 \end{itemize}
+		 
+		 Es importante usar datos estructurados o estandarización de descripciones en este tipo de sistemas para poder manejar tanta variedad de productos, modelos de descripciones y perles de usuarios. En muchos casos, si no se encuentra ya en ese formato, se convierte la información en palabras clave con el objetivo de trabajar mejor con el contenido. A partir de esto, se pueden determinar los diferentes pasos que realizan estos sistemas para trabajar
+		 
+		 \subsubsection{SISTEMA DE RECOMENDACIÓN BASADO EN FILTRADO COLABORATIVO 
+		 } 
+		 Estos sistemas de recomendación presentan elementos que le han gustado a otros usuarios con gustos similares, con este propósito, calculan la similitud entre usuarios. En estos sistemas el usuario debe realizar una evaluación previa sobre algunos elementos. De esta forma se va formando el perfil del usuario.\\
+		 \\
+		 Para cada usuario se crea un conjunto de "vecinos cercanos", usuarios cuyas evaluaciones anteriores tienen grandes semejanzas a las del usuario en cuestión. Los resultados para los elementos no calificados se predicen en base a la combinación de puntos (scores) conocidos de los vecinos cercanos.\\
+		 \\
+		 En el filtrado colaborativo, el sistema no analiza los elementos evaluados, sino que las recomendaciones se basan solamente en la similitud entre usuarios. Esto trae consigo algunos problemas, como se comenta a continuación.\\
+		 \\
+		 Cuando un usuario llega al sistema, no es posible hacerle recomendaciones hasta que su perfil sea lo suficientemente completo para encontrarle a su grupo de vecinos cercanos. Además, si los gustos del usuario son poco comunes, encontrarle un conjunto de vecinos cercanos será una tarea complicada. Esto hace notar que las recomendaciones dependen directamente del número y variedad de usuarios en el sistema.\\
+		 \\
+		 En estos sistemas la identificación de comunidades de interés emergentes en la población de usuarios es automática, lo que permite mejoras en la conciencia de grupo y la comunicación entre éstos.\cite{nro2:Online} %[Balavanovic y Shoham 1997].%
+		 \\
+		 
+		 Existen trabajos relacionados en ambas metodologías. Algunos, como Balavanovic y Shoham [1997], Lieberman et al. [1997] y Wexelblat [1998], utilizan agentes para implementación de sus sistemas de recomendación.\\
+		\\
+		 Los sistemas de recomendación han cobrado gran importancia debido a su aceptación por la gente y la ayuda que brindan en el filtrado de información. A continuación, se mencionan algunos sistemas de recomendación que son relevantes para este trabajo:
+		 
+		 	\begin{enumerate}[A.]
+		 		\item ESTRATEGIAS
+		 		Para implementar este tipo de recomendadores se pueden usar varias técnicas: las estrategias basadas en memoria y las estrategias basadas en modelos.  	
+	 	\begin{figure}[H]
+		 			\begin{center}
+		 				\includegraphics[scale=0.9]{./Imagenes/img02}		
+		 			\end{center}
+		 		\end{figure}
+	 			
+	 			\begin{enumerate}[a.]
+	 				\item Estrategias basadas en memoria.\\
+	 				\\
+	 				A las que también se las llama estrategias basadas en vecinos. Son las que hacen recomendaciones basándose en las valoraciones realizadas por los usuarios del sistema. Han sido las estrategias más ampliamente usadas en la implementación de sistemas recomendadores de filtrado colaborativo. Dentro de estas técnicas, existen dos subconjuntos: 
+\begin{itemize}
+	 					\item Basado en usuario: se predice la valoración de un usuario para un producto, teniendo en cuenta las valoraciones que han hecho los vecinos del usuario (aquellos usuarios que han valorado de forma parecida los mismos productos que él) para ese mismo producto. \\
+
+	 					\item Basado en producto: se predice la valoración de un usuario para un producto, teniendo en cuenta las valoraciones que ha hecho ese usuario para vecinos del producto (aquellos productos que han sido valorados de forma parecida por los usuarios). 
+	 				\end{itemize}
+	 				\newpage
+	 				\item Estrategias basadas en modelos. \\
+	 				\\
+	 				El problema de las estrategias basadas en vecinos es que la complejidad de cálculo es enorme. Es por esto por lo que surgieron las estrategias basadas en modelos, con las que se construyen modelos estadísticos de patrones de valoración de usuarios y productos para hacer predicciones automáticas de valoraciones. Con ellas se realiza un preprocesamiento offine de los datos de la 15 plataforma para hacer las recomendaciones y predicciones con esos datos. Entre ellos se encuentran los modelos de semántica latente, redes neuronales o probabilísticos, pero el que más destaca es el modelo de los factores latentes. Es el método más utilizado por la mejora de precisión que ha proporcionado gracias a la utilización de la técnica de factorización de matrices. Lo que hace esta técnica es categorizar usuarios o productos en unas determinadas clases deducidas de las valoraciones aportadas por los usuarios.
+	 				
+	 			\end{enumerate}
+
+\end{enumerate}
+	 		Aunque los algoritmos de filtrado colaborativo sean el tipo de sistema recomendador más utilizado y popular por la eficacia de sus recomendaciones aún tienen debilidades que provocan que las recomendaciones no sean totalmente efectivas y que, por lo tanto, es necesario que se solventen. Por un lado, tenemos dispersión: el conjunto de valoraciones usuario/producto normalmente es menor que el total de valoraciones posibles. Esto diculta encontrar valoraciones realizadas por el vecino del usuario y sobre el vecino del producto.\cite{nro1:Online}
+		 
+		 \subsubsection{SISTEMA DE RECOMENDACIÓN BASADO EN CONOCIMIENTO }
+		 
+		 Tanto los sistemas de recomendación basados en contenido como los basados en filtrado colaborativo necesitan gran cantidad de información sobre las interacciones llevadas a cabo por los usuarios del sistema. Como se ha comentado, esto supone un problema cuando aparecen nuevos productos en la plataforma o nuevos usuarios. Los sistemas de recomendación basados en contenido mejoran la eficacia cuando aparecen nuevos productos, pero aun así, siguen produciéndose recomendaciones poco eficaces en este tipo de escenarios. Además, estos métodos son poco adecuados para productos muy personalizados o productos con los que los usuarios no suelen interactuar, como pueden ser, por ejemplo, objetos de lujo o actividades de ocio o turísticas. También, cuando los productos son complejos de describir, es más difícil poder encontrar relaciones entre los productos o con el perfil del usuario.\\
+		 \\
+		 En general, los sistemas de recomendación basados en conocimiento son muy apropiados en las siguientes situaciones: 
+		 
+		 \begin{itemize}
+		 	\item Cuando los clientes quieren especificar los requisitos en las recomendaciones. 
+		 	\item Cuando es difícil obtener las valoraciones o información de interacciones de un determinado tipo de producto debido a la amplia complejidad de dominio del sistema con respecto a la variedad de tipos y opciones de productos. 
+		 	\item Cuando se hacen recomendaciones sobre productos que evolucionan muy rápidamente.
+		 \end{itemize}
+
 	 	\bibliographystyle{plain}
 	 	\bibliography{BIBLIO}
 	 		
